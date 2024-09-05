@@ -1,0 +1,290 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #111111;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 10px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.h6 {
+    color: #111111;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #55b58c;
+}
+
+.home {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 13%;
+}
+
+.home-content {
+    margin-top: 200px;
+}
+
+.home-content h1 {
+    color: #55b58c;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+.home-content h2 {
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+}
+
+.home-content p {
+
+    color: #ffffff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.photo img {
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 150px;
+    border-radius: 50px;
+    box-shadow: #55b58c 50px 40px;
+}
+
+.logo img {
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 40px;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+/* About */
+
+.my-about {
+    padding-top: 10%;
+}
+
+h3 {
+    top: 10px;
+    justify-content: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about {
+    display: flex;
+    margin-top: 10px;
+}
+
+.about h2 {
+    color: #ffffff;
+    font-size: 25PX;
+    margin-left: 20px;
+}
+
+.about-content p {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.years {
+    margin-left: 200px;
+}
+
+.years h3 {
+    color: #55b58c;
+    font-size: 80px;
+
+}
+
+.years p {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.project {
+    margin-left: 100px;
+
+}
+
+.project h3 {
+    color: #55b58c;
+    font-size: 80px;
+
+}
+
+.project p {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.skills h3 {
+
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.skills {
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25PX;
+}
+
+.skills img {
+    margin-top: 30px;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.Portfolio {
+    margin: 100px;
+}
+
+/* portfolio */
+
+.my-portfolio {
+    padding-top: 10%;
+}
+
+.Portfolio h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Portfolio img {
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/* Contact */
+
+.Contact {
+    text-align: center;
+    justify-content: center;
+}
+
+.form-align {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.Contact h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+
+.Contact form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #55b58c;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 8%;
+    padding: 30px;
+    width: 700px;
+
+}
+
+.input {
+    width: 500px;
+    height: 60px;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.Contact textarea {
+    height: 130px;
+    padding-top: 15px;
+}
+
+
+.button {
+    background-color: #000000;
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+
+}
+
+.Contact-form {
+    padding-top: 10%;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #444444;
+}
